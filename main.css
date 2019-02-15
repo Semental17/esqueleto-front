@@ -1,0 +1,60 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkslategrey;
+    font-size:1.2rem;
+    line-height: 1.4em;
+    margin: 0;
+}
+h1{
+    margin: 0;
+    font-size: 8rem;
+    line-height: 1.6em;
+}
+p{
+    margin-bottom: 1.6em;
+}
+.container{
+    width: 85%;
+    max-width: 7000px;
+    margin: 0 auto;
+}
+.header-fix{
+    background: darkslategrey;
+    color: white;
+    padding: 0.5rem 0;
+}
+.header-fix a{
+    text-decoration: none;
+    color: white;
+}
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a{
+    display: block;
+    padding: 1rem 1rem;
+    color: black;
+    transition: all 0.4s linear;
+}
+.navigation ul li :hover{
+    background: white;
+}
+.image{
+    background-image: url("/Users/jesusgutierrezrosales/Desktop/Esqueleto/img/office-620822_1920.jpg");
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-color: chocolate;
+    margin: 0 0 35px;
+    text-align: center;
+}
